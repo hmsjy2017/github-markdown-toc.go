@@ -1,7 +1,7 @@
 EXEC=gh-md-toc
 BUILD_DIR=build
-BUILD_OS="windows darwin freebsd linux"
-BUILD_ARCH="amd64 386"
+BUILD_OS="windows darwin freebsd openbsd linux"
+BUILD_ARCH="amd64 386 arm arm64 mips mips64"
 
 clean:
 	@rm -f ${EXEC}
